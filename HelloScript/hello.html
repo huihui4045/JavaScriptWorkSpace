@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>菜鸟教程(runoob.com)</title>
+</head>
+<body>
+
+<p>
+    JavaScript 能够直接写入 HTML 输出流中：
+</p>
+
+<h1 id="name"></h1>
+<h2 id="age"></h2>
+<h2 id="full"></h2>
+
+<script>
+    document.write("<h1>这是一个标题</h1>");
+    document.write("<p>这是一个段落。</p>");
+
+
+    function myFunction() {
+        document.write(Date());
+
+        userName = "裴银灰";
+    }
+
+    a = 5;
+    b = 6;
+    c = a + b;
+    console.log(c);
+
+    var User = {
+        userNname: "吕", age: 26, lastName: "鹏",
+        fullName: function () {
+
+            return this.userNname + "" + this.lastName;
+        }
+
+
+    };
+
+
+    document.getElementById("name").innerHTML = User.userNname;
+    document.getElementById("age").innerHTML = User.age;
+    document.getElementById("full").innerHTML = window.userName;
+
+</script>
+<p>
+    您只能在 HTML 输出流中使用 <strong>document.write</strong>。
+    如果您在文档已加载后使用它（比如在函数中），会覆盖整个文档。
+</p>
+
+<h1>我的 Web 页面</h1>
+<p id="demo">一个段落</p>
+<button type="button" onclick="myFunction()">尝试一下</button>
+
+<button type="button" onclick="this.innerHTML=Date()">点我哦</button>
+
+
+
+
+
+</body>
+</html>
