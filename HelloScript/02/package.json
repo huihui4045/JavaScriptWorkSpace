@@ -1,0 +1,14 @@
+{
+  "name": "02",
+  "version": "1.0.0",
+  "description": "",
+  "main": "es.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "gavin",
+  "license": "ISC",
+  "dependencies": {
+    "babel-preset-es2015": "^6.24.0"
+  }
+}
