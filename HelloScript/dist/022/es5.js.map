@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../022/es5.js"],"names":["result","a","console","log"],"mappings":"AAAA;;AAEA;;;;AAIA,IAAIA,SAAS,OAAb;AACA,IAAIC,IAAI,IAAR;;AAEAC,QAAQC,GAAR,CAAYH,MAAZ","file":"es5.js","sourcesContent":["\"use strict\";\n\n/**\r\n * Created by gavin on 2017/3/14.\r\n */\n\nvar result = \"gavin\";\nvar a = \"30\";\n\nconsole.log(result);\n"]}
