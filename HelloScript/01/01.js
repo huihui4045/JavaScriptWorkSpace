@@ -82,6 +82,9 @@
  console.log(mSub1.name + ":" + mSub1.age + ":" + mSub1.sayMsg());*/
 
 
+
+
+
 //组合继承
 
 function SuperType(name, age, country) {
